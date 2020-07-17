@@ -50,7 +50,7 @@ const std::array<std::string, 5> DDS_SYSTEM_COMPILER =
 
 
 extern OptionsType options;
-TestTimer timer;
+thread_local TestTimer timer;
 
 
 void main_identify(std::ostream& ostream);
@@ -80,7 +80,6 @@ int realMain(const std::string& fname, Solver solver)
   else if (solver == DTEST_SOLVER_DEALERPAR)
     stepsize = 1;
 
-  set_constants();
   main_identify(out);
 
   int number;
