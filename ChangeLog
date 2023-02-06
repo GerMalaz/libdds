@@ -10,6 +10,7 @@ Release Notes DDS 2.9.1
 - Removed all threading models except std::async based which is always enabled
 - Marked SetThreading deprecated because it doesn't do anything
 - Marked Chunk functions deprecated for future removal
+- test/print.cpp: Fixed bug in equals_to_string() noticed by tucsu.
 
 Release Notes DDS 2.9.0
 -----------------------

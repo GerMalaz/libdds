@@ -94,7 +94,7 @@ std::string equals_to_string(const int equals)
   std::string st = "";
   for (unsigned i = 15; i >= 2; i--)
   {
-    if (equals & dbitMapRank[i])
+    if ((equals >> 2) & dbitMapRank[i])
       st += static_cast<char>(dcardRank[i]);
   }
   return (st == "" ? "-" : st);
