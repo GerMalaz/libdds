@@ -13,6 +13,7 @@ Release Notes DDS 2.9.1
 - test/print.cpp: Fixed bug in equals_to_string() noticed by tucsu.
 - test/testcommon.cpp: Added initializations that some compilers
   complained about. Noticed by Nicolas Hammond.
+- Added rimmington's fixes for some memory freeing problems.
 
 Release Notes DDS 2.9.0
 -----------------------
