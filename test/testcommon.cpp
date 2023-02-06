@@ -82,16 +82,16 @@ int realMain(const std::string& fname, Solver solver)
 
   main_identify(out);
 
-  int number;
-  int * dealer_list;
-  int * vul_list;
-  dealPBN * deal_list;
-  futureTricks * fut_list;
-  ddTableResults * table_list;
-  parResults * par_list;
-  parResultsDealer * dealerpar_list;
-  playTracePBN * play_list;
-  solvedPlay * trace_list;
+  int number = 0;
+  int * dealer_list = nullptr;
+  int * vul_list = nullptr;
+  dealPBN * deal_list = nullptr;
+  futureTricks * fut_list = nullptr;
+  ddTableResults * table_list = nullptr;
+  parResults * par_list = nullptr;
+  parResultsDealer * dealerpar_list = nullptr;
+  playTracePBN * play_list = nullptr;
+  solvedPlay * trace_list = nullptr;
   if (read_file(out, fname, number, GIBmode, &dealer_list, &vul_list,
         &deal_list, &fut_list, &table_list, &par_list, &dealerpar_list,
         &play_list, &trace_list) == false)
