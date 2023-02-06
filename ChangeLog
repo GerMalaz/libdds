@@ -16,6 +16,7 @@ Release Notes DDS 2.9.1
 - Added rimmington's fixes for some memory freeing problems.
 - Added df7cb's include of bool definition in C mode.
 - Added df7cb's fix of Linux memory size detection.
+- Added df7cb's change to avoid compiler errors where char is unsigned.
 - Added small explication of solving boards with partial tricks to
   the documentation.
 - Added three small fixes from elkhrt (namespace, init, static init
@@ -23,6 +24,7 @@ Release Notes DDS 2.9.1
 - Added aleaxit's three changes to some int/unsigned types.
 - Added SolveAllBoardsBin interface function for symmetry, as suggested
   by rimmington.
+
 
 Release Notes DDS 2.9.0
 -----------------------
