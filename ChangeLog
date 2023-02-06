@@ -14,6 +14,10 @@ Release Notes DDS 2.9.1
 - test/testcommon.cpp: Added initializations that some compilers
   complained about. Noticed by Nicolas Hammond.
 - Added rimmington's fixes for some memory freeing problems.
+- Added df7cb's include of bool definition in C mode.
+- Added df7cb's fix of Linux memory size detection.
+- Added small explication of solving boards with partial tricks to
+  the documentation.
 
 Release Notes DDS 2.9.0
 -----------------------
