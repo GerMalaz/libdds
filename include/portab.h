@@ -25,7 +25,7 @@
 
 #elif defined (__linux) || defined (__APPLE__)
   #include <unistd.h>
-  #if not defined(DDS_NO_STATIC_INIT)
+  #if !defined(DDS_NO_STATIC_INIT)
   /* DLL uses a constructor function for initialization */
   #endif
 
