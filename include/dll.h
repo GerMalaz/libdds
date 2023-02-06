@@ -13,7 +13,7 @@
 
 #include "dds_export.h"
 
-#if defined(_WIN32) || defined(__CYGWIN__)
+#if defined(_WIN32) || defined(__CYGWIN__) && ! defined(__clang__)
   #define STDCALL __stdcall
 #else
   #define STDCALL
